@@ -8,11 +8,17 @@ SSAC 수업내용 기록
 ```
 html-css : kebab case
 
-html_css : snake case
+html_css : snake case - Python
 
-htmlCss : camel case
+htmlCss : camel case - JavaScript, JAVA, C, C++
 
-HtmlCss : Pascal case
+HtmlCss : Pascal case - JavaScript, JAVA, C, C++ ( Class )
+
+* Front End
+- HTML( class / id ) : kebab case
+- File/Folder name : snake case
+- JS : camel case
+- JS ( class ) : Pascal case
 ```
 
 ## HTML
