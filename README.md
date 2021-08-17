@@ -4,8 +4,7 @@
 
 ## HTML
 * HTML Introduction
-* 
-* https://www.w3schools.com/html/html_intro.asp
+ https://www.w3schools.com/html/html_intro.asp
 
 > 웹페이지 구조 표시
 > 
