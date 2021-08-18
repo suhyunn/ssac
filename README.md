@@ -100,3 +100,8 @@ https://www.w3schools.com/html/html_filepaths.asp
 - Ex) 파일(폴더) 경로 : html/html_filepaths.asp, ../html/html_filepaths.asp
 - Ex) 루트 상대 경로 : /html/html_filepaths.asp
 
+### HTML Table
+https://www.w3schools.com/html/html_tables.asp
+
+- table generator
+https://www.tablesgenerator.com/html_tables
