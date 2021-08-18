@@ -59,3 +59,27 @@ https://www.w3schools.com/html/html_elements.asp
 
 ### HTML Attribute
 https://www.w3schools.com/html/html_attributes.asp
+
+### HTMK Paragraphs
+https://www.w3schools.com/html/html_paragraphs.asp
+
+### HTML HyperLink
+https://www.w3schools.com/html/html_links.asp
+
+a : Anchor
+href : Hypertext REFerence
+
+### HTML URL
+https://www.w3schools.com/html/html_urlencode.asp
+
+인터넷 주소
+- IP(Internet Protocol) 주소 : 192.168.0.1
+- 도메인(Domain Name) 주소 : www.naver.com
+- DNS(Domain Name Server/System)
+- domain -> DNS -> ip
+
+URL(Uniform Resource Locator)
+- 자세한 주소
+- 도메인 주소 + 해당 페이지 폴더 위치/파일 위치
+- 인터넷 주소를 표현하는 가장 큰 범위
+- 프로토콜 : http, https, ftp ...
