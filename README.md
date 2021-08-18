@@ -83,3 +83,20 @@ URL(Uniform Resource Locator)
 - 도메인 주소 + 해당 페이지 폴더 위치/파일 위치
 - 인터넷 주소를 표현하는 가장 큰 범위
 - 프로토콜 : http, https, ftp ...
+
+### HTML File Path
+https://www.w3schools.com/html/html_filepaths.asp
+
+절대 경로
+- 출발 지점에 상관없이 항상 같은 리소스를 창을 수 있도록 표시하는 주소/경로
+- 장점 : 항상 같은 자원의 위치로 찾아올 수 있음
+- 단점 : 주소 표시 길이 김
+- Ex) 도메인주소/파일(폴더) 경로 : https://www.w3schools.com/html/html_filepaths.asp
+
+상대 경로
+- 출발 지점을 기준으로 리소스 경로를 표시하는 주소/경로
+- 장점 : 주소 표시 길이가 상대적으로 짧음
+- 단점 : 기준에 따라서 표시 방식이 매번 달라짐
+- Ex) 파일(폴더) 경로 : html/html_filepaths.asp, ../html/html_filepaths.asp
+- Ex) 루트 상대 경로 : /html/html_filepaths.asp
+
