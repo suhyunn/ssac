@@ -173,5 +173,5 @@ https://www.w3schools.com/css/css_selectors.asp
 ### CSS How To
 https://www.w3schools.com/css/css_howto.asp
 
-> js에서 css를 제어할 때 인라인 방식으로 제어함.
+> js에서 css를 제어할 때 인라인 방식으로 제어함. 
 
