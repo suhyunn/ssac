@@ -140,9 +140,9 @@ https://www.w3schools.com/html/html_blocks.asp
 https://www.w3schools.com/html/html_entities.asp
 
 > HTML 마크업 용도로 Fix된 기호는 대체 코드를 사용
-> <, >, &, ", '
-> 공백을 여러칸 띄울 때 : 대체코드를 사용
-> 브라우저 렌더링용 대체코드 : ⓒ -> &copy;
+> - <, >, &, ", '
+> - 공백을 여러칸 띄울 때 : 대체코드를 사용
+> - 브라우저 렌더링용 대체코드 : ⓒ -> &copy;
 
 ### HTML id,class
 https://www.w3schools.com/html/html_id.asp
