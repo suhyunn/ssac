@@ -126,3 +126,15 @@ https://www.w3schools.com/html/html5_video.asp
 https://www.w3schools.com/html/html_youtube.asp
 
 
+### HTML id,class
+https://www.w3schools.com/html/html_id.asp
+https://www.w3schools.com/html/html_classes.asp
+
+>id 특성
+> - 하나의 HTML 문서 내에서 동일한 id 이름을 사용할 수 없음.
+> - 하나의 HTML 문서 내에서 고유해야 함.
+> - 하나의 HTML Element에 id이름을 여러 개 붙일 수 없음.
+>
+>class 특성
+> - 하나의 HTML 문서 내에서 동일한 class이름을 여러번 사용할 수 있음.
+> - 하나의 HTML 문서 내에서  
