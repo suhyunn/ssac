@@ -63,7 +63,7 @@ https://www.w3schools.com/html/html_attributes.asp
 ### HTML Headings
 https://www.w3schools.com/html/html_headings.asp
 
-### HTMK Paragraphs
+### HTML Paragraphs
 https://www.w3schools.com/html/html_paragraphs.asp
 
 ### HTML HyperLink
@@ -125,6 +125,24 @@ https://www.w3schools.com/html/html5_video.asp
 ### HTML Youtube
 https://www.w3schools.com/html/html_youtube.asp
 
+### HTML Semantics
+https://www.w3schools.com/html/html5_semantic_elements.asp
+
+### HTML Block & Inline
+https://www.w3schools.com/html/html_blocks.asp
+
+> 포함관계에 대한 특성
+> - 블럭요소 : 다른 블럭요소, 인라인 요소, 콘텐츠 모두 포함 가능
+> - 인라인 요소 : 다른 인라인 요소, 콘텐츠는 포함 가능, 블럭 요소는 포함 불가능
+> - 예외 : a - 인라인 요소이지만 블럭요소도 포함 가능
+
+### HTML Entities
+https://www.w3schools.com/html/html_entities.asp
+
+> HTML 마크업 용도로 Fix된 기호는 대체 코드를 사용
+> <, >, &, ", '
+> 공백을 여러칸 띄울 때 : 대체코드를 사용
+> 브라우저 렌더링용 대체코드 : ⓒ -> &copy;
 
 ### HTML id,class
 https://www.w3schools.com/html/html_id.asp
@@ -137,4 +155,21 @@ https://www.w3schools.com/html/html_classes.asp
 >
 >class 특성
 > - 하나의 HTML 문서 내에서 동일한 class이름을 여러번 사용할 수 있음.
-> - 하나의 HTML 문서 내에서  
+> - 하나의 HTML Element에 여러가지 class이름을 붙일 수 있음.
+
+## CSS
+
+### CSS Introduction
+https://www.w3schools.com/css/css_intro.asp
+
+### CSS Syntax
+https://www.w3schools.com/css/css_syntax.asp
+
+### CSS Selectors
+https://www.w3schools.com/css/css_selectors.asp
+
+> Simple Selector 가장 많이 사용함
+
+### CSS How To
+https://www.w3schools.com/css/css_howto.asp
+
