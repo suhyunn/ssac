@@ -72,16 +72,14 @@ https://www.w3schools.com/html/html_attributes.asp
 
 https://www.w3schools.com/html/html_headings.asp
 
-<<<<<<< CodeSandbox
-
-### HTMK Paragraphs
-
-=======
 
 ### HTML Paragraphs
 
-> > > > > > > GitHub
-> > > > > > > https://www.w3schools.com/html/html_paragraphs.asp
+https://www.w3schools.com/html/html_paragraphs.asp
+
+### HTML Paragraphs
+
+https://www.w3schools.com/html/html_paragraphs.asp
 
 ### HTML HyperLink
 
@@ -154,15 +152,10 @@ https://www.w3schools.com/html/html5_video.asp
 
 https://www.w3schools.com/html/html_youtube.asp
 
-<<<<<<< CodeSandbox
-
-# ##########################
-
 ### HTML Semantics
 
 https://www.w3schools.com/html/html5_semantic_elements.asp
 
-> > > > > > > GitHub
 
 ### HTML Block & Inline
 
@@ -221,3 +214,13 @@ https://www.w3schools.com/css/css_selectors.asp
 https://www.w3schools.com/css/css_howto.asp
 
 > js에서 css를 제어할 때 인라인 방식으로 제어함.
+
+### CSS Text
+https://www.w3schools.com/css/css_text.asp
+
+### CSS Font
+https://www.w3schools.com/css/css_font.asp
+
+> Web Font
+> - Google Font : https://fonts.google.com/ (영문/한글)
+> - Noonnu Font : https://noonnu.cc/ (한글)
