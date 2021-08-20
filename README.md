@@ -254,9 +254,19 @@ https://www.w3schools.com/css/css_padding.asp
 
 https://www.w3schools.com/css/css_margin.asp
 
+### CSS Border
+
+https://www.w3schools.com/css/css_border.asp
+
 ### CSS Background
 
 https://www.w3schools.com/css/css_background.asp
 
 ** CSS 상속
 > 부모요소에 적용된 CSS style이 자식요소에 적용되는 것
+
+** CSS color 코드값
+> CSS에서 16진수 코드값과 10진수 코드값을 사용할 수 있음.
+> 16진수 코드값 : #16진수숫자 6자리
+> 10진수 코드값 : RGB(10진수숫자,10진수숫자, 10진수숫자)
+> 10진수 코드값 + 투명도 표시 : rgba(10진수숫자,10진수숫자, 10진수숫자, 0.0 ~ 1.0)
