@@ -254,4 +254,9 @@ https://www.w3schools.com/css/css_padding.asp
 
 https://www.w3schools.com/css/css_margin.asp
 
+### CSS Background
 
+https://www.w3schools.com/css/css_background.asp
+
+** CSS 상속
+> 부모요소에 적용된 CSS style이 자식요소에 적용되는 것
