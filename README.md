@@ -224,3 +224,23 @@ https://www.w3schools.com/css/css_font.asp
 > Web Font
 > - Google Font : https://fonts.google.com/ (영문/한글)
 > - Noonnu Font : https://noonnu.cc/ (한글)
+
+
+### CSS Box Model
+
+> Box Model 구성 요소
+> - Content(width/height)
+> - padding
+> - border
+> - margin
+
+### CSS width/height
+
+> width/height 기본특성
+> - 블럭 요소 : width는 부모요소에 맞춰져서 채워짐, height는 자식요소에 맞춰짐.
+> - 인라인 요소 : width/height 적용되지 않음 - 레이아웃 구성 용도로 사용하지 않음.
+
+> 단위
+> - px : px 값으로 고정
+> - % : 부모요소를 기준으로 특정 비율크기로 설정
+
