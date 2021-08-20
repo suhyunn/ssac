@@ -216,9 +216,11 @@ https://www.w3schools.com/css/css_howto.asp
 > js에서 css를 제어할 때 인라인 방식으로 제어함.
 
 ### CSS Text
+
 https://www.w3schools.com/css/css_text.asp
 
 ### CSS Font
+
 https://www.w3schools.com/css/css_font.asp
 
 > Web Font
@@ -243,4 +245,13 @@ https://www.w3schools.com/css/css_font.asp
 > 단위
 > - px : px 값으로 고정
 > - % : 부모요소를 기준으로 특정 비율크기로 설정
+
+### CSS Padding
+
+https://www.w3schools.com/css/css_padding.asp
+
+### CSS Margin
+
+https://www.w3schools.com/css/css_margin.asp
+
 
