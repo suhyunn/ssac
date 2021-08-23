@@ -274,3 +274,14 @@ https://www.w3schools.com/css/css_background.asp
 > - 16진수 코드값 : #16진수숫자 6자리(0~9, a~f)
 > - 10진수 코드값 : rgb(10진수숫자,10진수숫자, 10진수숫자)
 > - 10진수 코드값 + 투명도 표시 : rgba(10진수숫자,10진수숫자, 10진수숫자, 0.0 ~ 1.0) 
+
+### CSS Flexbox
+
+https://www.w3schools.com/css/css3_flexbox_container.asp
+
+> 박스 배치 제어를 위한 display: flex 속성 및 배치 관련 속성을 부모요소에 적용함
+
+> flex-direction 속성
+> - 박스 배치 방향 제어
+> - 가로배치, 세로배치 모두 제어가 가능함.
+> - 가로배치(row)가 기본 값
