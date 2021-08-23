@@ -259,12 +259,15 @@ https://www.w3schools.com/css/css_margin.asp
 
 https://www.w3schools.com/css/css_border.asp
 
+> border 축약 표현에 방향을 더해서 표현하는 내용으로 정리
+
 ### CSS Background
 
 https://www.w3schools.com/css/css_background.asp
 
 ** CSS 상속
 > 부모요소에 적용된 CSS style이 자식요소에 적용되는 것
+> 모든 CSS 속성이 상속되는 것은 아님
 
 ** CSS color 코드값
 > CSS에서 16진수 코드값과 10진수 코드값을 사용할 수 있음.
