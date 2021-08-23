@@ -176,7 +176,7 @@ https://www.w3schools.com/html/html_entities.asp
 >
 > - <, >, &, ", '
 > - 공백을 여러칸 띄울 때 : 대체코드를 사용
-> - 브라우저 렌더링용 대체코드 : ⓒ -> &copy;
+> - 브라우저 렌더링용 대체코드 : ⓒ => &copy;
 
 ### HTML id,class
 
@@ -285,3 +285,9 @@ https://www.w3schools.com/css/css3_flexbox_container.asp
 > - 박스 배치 방향 제어
 > - 가로배치, 세로배치 모두 제어가 가능함.
 > - 가로배치(row)가 기본 값
+
+### 반응형 웹
+
+> 반응형 웹, 적응형 웹
+> OSMU(One Source Multi Use) 여부로 반응형과 적응형을 구분
+> Web Front End 에서의 OSMU의 기준은 HTML Source code => Contents
