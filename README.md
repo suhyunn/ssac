@@ -41,6 +41,7 @@ HtmlCss : Pascal case - JavaScript, JAVA, C, C++ ( Class )
 
 ** 시작태그만 있는 Element : Empty element
 ```
+
 `(backtick)
 
 ### HTML Element
@@ -72,7 +73,6 @@ https://www.w3schools.com/html/html_attributes.asp
 ### HTML Headings
 
 https://www.w3schools.com/html/html_headings.asp
-
 
 ### HTML Paragraphs
 
@@ -157,7 +157,6 @@ https://www.w3schools.com/html/html_youtube.asp
 
 https://www.w3schools.com/html/html5_semantic_elements.asp
 
-
 ### HTML Block & Inline
 
 https://www.w3schools.com/html/html_blocks.asp
@@ -225,13 +224,14 @@ https://www.w3schools.com/css/css_text.asp
 https://www.w3schools.com/css/css_font.asp
 
 > Web Font
+>
 > - Google Font : https://fonts.google.com/ (영문/한글)
 > - Noonnu Font : https://noonnu.cc/ (한글)
-
 
 ### CSS Box Model
 
 > Box Model 구성 요소
+>
 > - Content(width/height)
 > - padding
 > - border
@@ -240,10 +240,12 @@ https://www.w3schools.com/css/css_font.asp
 ### CSS width/height
 
 > width/height 기본특성
+>
 > - 블럭 요소 : width는 부모요소에 맞춰져서 채워짐, height는 자식요소에 맞춰짐.
 > - 인라인 요소 : width/height 적용되지 않음 - 레이아웃 구성 용도로 사용하지 않음.
 
 > 단위
+>
 > - px : px 값으로 고정
 > - % : 부모요소를 기준으로 특정 비율크기로 설정
 
@@ -265,15 +267,17 @@ https://www.w3schools.com/css/css_border.asp
 
 https://www.w3schools.com/css/css_background.asp
 
-** CSS 상속
+\*\* CSS 상속
+
 > 부모요소에 적용된 CSS style이 자식요소에 적용되는 것
 > 모든 CSS 속성이 상속되는 것은 아님
 
-** CSS color 코드값
+\*\* CSS color 코드값
+
 > - CSS에서 16진수 코드값과 10진수 코드값을 사용할 수 있음.
 > - 16진수 코드값 : #16진수숫자 6자리(0~9, a~f)
 > - 10진수 코드값 : rgb(10진수숫자,10진수숫자, 10진수숫자)
-> - 10진수 코드값 + 투명도 표시 : rgba(10진수숫자,10진수숫자, 10진수숫자, 0.0 ~ 1.0) 
+> - 10진수 코드값 + 투명도 표시 : rgba(10진수숫자,10진수숫자, 10진수숫자, 0.0 ~ 1.0)
 
 ### CSS Flexbox
 
@@ -282,6 +286,7 @@ https://www.w3schools.com/css/css3_flexbox_container.asp
 > 박스 배치 제어를 위한 display: flex 속성 및 배치 관련 속성을 부모요소에 적용함
 
 > flex-direction 속성
+>
 > - 박스 배치 방향 제어
 > - 가로배치, 세로배치 모두 제어가 가능함.
 > - 가로배치(row)가 기본 값
@@ -297,17 +302,17 @@ https://www.w3schools.com/css/css3_flexbox_container.asp
 > @media 키워드를 사용해서 break point를 설정하고, 그에 따른 독립된 코드 블록을 실해할 수 있게 하는 것
 > break point (변경점)
 
-  ```
-  Ex) pc 해상도 : 1024px ~ 1920px / phone 해상도 : 320px ~ 640px
-  
-  @media screen and (min-width: 1024px) and (max-width: 1920px) {}
-  @media screen and (min-width: 320px) and (max-width: 640px) {}
-  (=> 범위가 벗어나면 CSS 레이아웃이 적용되지 않기 때문에 잘 사용하지 않는다)
-  
-  Ex) pc 기준 해상도(기준) : 해상도 설정 하지 않음 / tablet 해상도 : ~ 900px / phone 해상도 : ~ 640px
-  
-  body { color: red; }
-  @media screen and (max-width: 900px){}
-  @media screen and (max-width: 640px){}
-  
-  ```
+```
+Ex) pc 해상도 : 1024px ~ 1920px / phone 해상도 : 320px ~ 640px
+
+@media screen and (min-width: 1024px) and (max-width: 1920px) {}
+@media screen and (min-width: 320px) and (max-width: 640px) {}
+(=> 범위가 벗어나면 CSS 레이아웃이 적용되지 않기 때문에 잘 사용하지 않는다)
+
+Ex) pc 기준 해상도(기준) : 해상도 설정 하지 않음 / tablet 해상도 : ~ 900px / phone 해상도 : ~ 640px
+
+body { color: red; }
+@media screen and (max-width: 900px){}
+@media screen and (max-width: 640px){}
+
+```

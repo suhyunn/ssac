@@ -136,12 +136,32 @@ table {
 
 .header {
   height: 100px;
+  display: flex;
+  justify-content: space-between;
+  /* padding-top: 38px; */
+  /* box-sizing: border-box; */
+  padding: 0px 100px;
+}
+.logo {
+  margin-top: 38px;
+  /* margin-left: 100px; */
+}
+.gnb {
+  margin-top: 45px;
+  /* margin-top: 7px; 
+   위에 부모에 38px띄우고 자식영역에 부족한 부분만 +해서 띄운다 */
+  /* margin-right: 100px; 
+  부모에 padding을 한번에 사용해도 되고 직관적으로 자식요소에 left,right 띄어도 된다 */
+}
+.gnb-list {
+  display: flex;
 }
 
 .gnb-list-item {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 12px;
+  margin-left: 30px;
 }
 .gnb-list-link {
   color: #191919;
@@ -177,17 +197,82 @@ table {
 .figure {
   width: 340px;
   height: 300px;
+  overflow: hidden;
+}
+.group {
+  display: flex;
+  justify-content: center;
 }
 .figure-image {
-  width: 340px;
+  /* width: 340px; */
   height: 300px;
 }
 .figure-video {
-  width: 340px;
+  /* width: 340px; */
   height: 300px;
 }
 .footer {
   height: 280px;
   background-color: #141414;
-  color: #ffff;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 100px 0px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+.copyright-company {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 27px;
+}
+.sitemap {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 108px;
+  width: 230px;
+}
+.sitemap-item {
+  margin-bottom: 12px;
+  width: 60px;
+  margin-left: 55px;
+}
+@media screen and (max-width: 900px) {
+  .header {
+    height: auto;
+    flex-direction: column;
+    padding: 0 0 10px 0;
+  }
+  .logo {
+    margin-top: 10px;
+    /* 인라인 요소에 text-align을 적용 가능 */
+    text-align: center;
+  }
+  .gnb {
+    margin-top: 15px;
+  }
+  .gnb-list {
+    justify-content: center;
+  }
+  .gnb-list-item:first-child {
+    margin-left: 0;
+  }
+  .section-heading {
+    font-size: 24px;
+  }
+  .paragraph {
+    padding: 0 25px;
+  }
+  .paragraph br {
+    display: none;
+  }
+  .group {
+    flex-direction: column;
+  }
+  .figure {
+    margin: 0 auto;
+  }
 }
