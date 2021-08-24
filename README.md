@@ -296,8 +296,9 @@ https://www.w3schools.com/css/css3_flexbox_container.asp
 ### 반응형 웹
 
 > 반응형 웹, 적응형 웹
-> OSMU(One Source Multi Use) 여부로 반응형과 적응형을 구분
-> Web Front End 에서의 OSMU의 기준은 HTML Source code => Contents
+>
+> - OSMU(One Source Multi Use) 여부로 반응형과 적응형을 구분
+> - Web Front End 에서의 OSMU의 기준은 HTML Source code => Contents
 
 ### RWD Viewport
 
@@ -342,14 +343,19 @@ https://www.w3schools.com/cssref/pr_class_display.asp
 
 ### 복합(조합) 선택자
 
-> div p : 공백 - 자손 선택자 : 자식요소, 자손요소 모두 선택
-> div>p : > - 자식 선택자 : 자식요소만 선택
+> - div p : 공백 - 자손 선택자 : 자식요소, 자손요소 모두 선택
+> - div>p : > - 자식 선택자 : 자식요소만 선택
 
 ### 가상 클래스
 
 > Element의 상태 구분
 >
-> - a:link, a:visited, a:hover, a:active
->   Element의 특정 요소를 선택
+> - a:link
+> - a:visited
+> - a:hover
+> - a:active
+
+> Element의 특정 요소를 선택
+>
 > - .list-item:first-child(첫번째 요소 선택)
 > - .list-item:last-child(마지막 요소 선택)
