@@ -291,13 +291,21 @@ https://www.w3schools.com/css/css3_flexbox_container.asp
 > - 가로배치, 세로배치 모두 제어가 가능함.
 > - 가로배치(row)가 기본 값
 
+>jstify-content, align-items 의 방향이 flex-direction의 설정에 의해서 뒤바뀔 수 있음
+
 ### 반응형 웹
 
 > 반응형 웹, 적응형 웹
 > OSMU(One Source Multi Use) 여부로 반응형과 적응형을 구분
 > Web Front End 에서의 OSMU의 기준은 HTML Source code => Contents
 
+### RWD Viewport
+
+https://www.w3schools.com/css/css_rwd_viewport.asp
+
 ### Media Query
+
+https://www.w3schools.com/css/css_rwd_mediaqueries.asp
 
 > @media 키워드를 사용해서 break point를 설정하고, 그에 따른 독립된 코드 블록을 실해할 수 있게 하는 것
 > break point (변경점)
