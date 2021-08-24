@@ -338,4 +338,19 @@ body { color: red; }
 > - line-height - 텍스트
 
 ### CSS display
+
 https://www.w3schools.com/cssref/pr_class_display.asp
+
+### 복합(조합) 선택자
+
+> div p : 공백 - 자손 선택자 : 자식요소, 자손요소 모두 선택
+> div>p : > - 자식 선택자 : 자식요소만 선택
+
+### 가상 클래스
+
+> Element의 상태 구분
+> - a:link, a:visited, a:hover, a:active
+
+> Element의 특정 요소를 선택
+> - .list-item:first-child(첫번째 요소 선택)
+> - .list-item:last-child(마지막 요소 선택)
