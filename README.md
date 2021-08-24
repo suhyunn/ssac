@@ -336,3 +336,6 @@ body { color: red; }
 > 세로방향
 > - align-items: center - flex 박스 배치
 > - line-height - 텍스트
+
+### CSS display
+https://www.w3schools.com/cssref/pr_class_display.asp
