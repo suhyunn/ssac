@@ -324,3 +324,15 @@ body { color: red; }
 @media screen and (max-width: 640px){}
 
 ```
+
+** 가운데 배치/정렬 방식
+
+> 가로방향
+> 
+> - text-align: center - 텍스트와 인라인 요소
+> - margin-left: auto, margin-right: auto - 가로길이가 정해진 블록요소
+> - justify-content: center - flex 박스 배치
+
+> 세로방향
+> - align-items: center - flex 박스 배치
+> - line-height - 텍스트
