@@ -194,6 +194,20 @@ table {
   line-height: 1.6;
   font-style: italic;
 }
+.more-link {
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  border: 1px solid red;
+  line-height: 40px;
+  text-decoration: none;
+  color: #191919;
+  margin-top: 20px;
+}
+.more-link:hover {
+  background: red;
+  color: #fff;
+}
 .figure {
   width: 340px;
   height: 300px;
@@ -273,6 +287,6 @@ table {
     flex-direction: column;
   }
   .figure {
-    margin: 0 auto;
+    margin: 10 auto;
   }
 }
