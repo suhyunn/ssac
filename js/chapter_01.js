@@ -1,3 +1,5 @@
+//변수(let,const), if구문, 증가연산
+
 let a = 2;
 const b = 5;
 
@@ -18,6 +20,10 @@ if (a < 3) {
 } else {
   console.log("<false");
 }
+
+//삼항 연산자
+let result = a < 3 ? "3<true" : "3<false";
+console.log(result);
 
 if (a - 4) {
   console.log("-ture");
