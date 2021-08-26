@@ -111,3 +111,79 @@ https://www.w3schools.com/js/js_this.asp
 > - Object 안에 있는 method에서 사용 : 포함하는 Object를 가리킴
 > - 전역 공간에서 사용 : 전역 객체를 가리킴
 > - 함수 공간에서 사용 : 전역 객체를 가리킴
+
+### Javascript에서 사용할 수 있는 객체(제공되는 객체)의 종류
+
+> API : 어플리케이션 프로그래밍을 위해 여러 서비스/프레임워크/라이브러리 에서 제공하는 객체 또는 함수
+>
+> HTML5 API
+>
+> - geolocation
+
+> ES5/ES6 API(Object) : 내장 객체
+>
+> - Math, Date
+
+> Dom(Document Object Model)
+>
+> - HTML Element를 객체로 만든 것
+
+> 외부 API
+>
+> - 지도 API의 객체, 날씨 데이터 API의 객체
+
+### DOM 콘텐츠
+
+> HTML문서에 없던 콘텐츠를 프로그래밍을 통해서 생성 => 동적(Dynamic) 생성
+
+### Finding DOM
+
+> HTML4
+>
+> getElementByID()
+>
+> getElementsByTagname()
+>
+> getElementsByClassName()
+>
+> HTML5
+>
+> querySelector()
+>
+> querySelectorAll()
+>
+> - 한 종류의 메소드로 id, class, tag 요소로 접근하는데 모두 사용 가능
+> - css selector 사용방법과 동일한 방법으로 요소 종류를 구분
+
+### Create, Append Element(Node)
+
+> document.createElement()
+>
+> document.appendChild()
+
+### Vanilla js / jquery
+
+> Vanilla Js : 라이브러리나 프레임워크 사용없이 순수 자바스크립트로 개발하는 것
+>
+> jquery : javascript 라이브러리
+>
+> - $() == $(document).ready() : HTML Element가 모두 렌더링된 이후에 실행
+
+### JS Event
+
+https://www.w3schools.com/js/js_htmldom_events.asp
+
+> Event : 상태 변화에 따라 발생되는 신호
+>
+> 이벤트 종류
+>
+> - 마우스 : 클릭, 움직임, 휠...
+> - 키보드 : 키 누름...
+
+### JS Event Listener(Handler)
+
+https://www.w3schools.com/js/js_htmldom_eventlistener.asp
+
+> addEventListener(이벤트, 함수)
+>
+> - jquery : on()
