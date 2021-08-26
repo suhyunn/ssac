@@ -270,6 +270,7 @@ https://www.w3schools.com/css/css_background.asp
 \*\* CSS 상속
 
 > 부모요소에 적용된 CSS style이 자식요소에 적용되는 것
+>
 > 모든 CSS 속성이 상속되는 것은 아님
 
 \*\* CSS color 코드값
@@ -309,6 +310,7 @@ https://www.w3schools.com/css/css_rwd_viewport.asp
 https://www.w3schools.com/css/css_rwd_mediaqueries.asp
 
 > @media 키워드를 사용해서 break point를 설정하고, 그에 따른 독립된 코드 블록을 실해할 수 있게 하는 것
+>
 > break point (변경점)
 
 ```
