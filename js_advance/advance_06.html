@@ -34,33 +34,53 @@
       <img src="../images/image_02.jpg" class="image-item" />
       <img src="../images/image_03.jpg" class="image-item" />
     </section>
+    <div>
+      <button type="button" class="btn-play">Play</button>
+      <button type="button" class="btn-pause">Pause</button>
+    </div>
     <script>
-      currentIndex = 0;
-      nextIndex = 1;
+      let currentIndex = 0;
+      let nextIndex = 1;
+      let intervalID;
 
       const allImageItem = document.querySelectorAll(".image-item");
-      // 설정된 시간마다 주기적으로 지정된 기능을 반복실행
-      // 시간 : ms(milli sec) - 1/1000 초
-      window.setInterval(function () {
-        //nextIndex 값이 2이상되면 0으로 초기화 0->1->2->0->1->2 ...
-        if (nextIndex > allImageItem.length - 1) {
-          nextIndex = 0;
-        }
+      const playButton = document.querySelector(".btn-play");
+      const pauseButton = document.querySelector(".btn-pause");
 
-        // 전체 제거
-        for (let i = 0; i < allImageItem.length; i++) {
-          allImageItem[i].classList.remove("in");
-          allImageItem[i].classList.remove("out");
-        }
+      const slide = () => {
+        // 설정된 시간마다 주기적으로 지정된 기능을 반복실행
+        // 시간 : ms(milli sec) - 1/1000 초
+        let intervalId = setInterval(function () {
+          //nextIndex 값이 2이상되면 0으로 초기화 0->1->2->0->1->2 ...
+          if (nextIndex > allImageItem.length - 1) {
+            nextIndex = 0;
+          }
 
-        // 필요한 부분 추가
-        allImageItem[currentIndex].classList.add("out");
-        allImageItem[nextIndex].classList.add("in");
+          // 전체 제거
+          for (let i = 0; i < allImageItem.length; i++) {
+            allImageItem[i].classList.remove("in");
+            allImageItem[i].classList.remove("out");
+          }
 
-        // 값을 증가해서 반복되어 롤링
-        currentIndex = nextIndex;
-        nextIndex++;
-      }, 5000);
+          // 필요한 부분 추가
+          allImageItem[currentIndex].classList.add("out");
+          allImageItem[nextIndex].classList.add("in");
+
+          // 값을 증가해서 반복되어 롤링
+          currentIndex = nextIndex;
+          nextIndex++;
+        }, 2000);
+      };
+
+      slide();
+
+      // 버튼 기능
+      playButton.addEventListener("click", () => {
+        slide();
+      });
+      pauseButton.addEventListener("click", () => {
+        clearInterval(intervalId);
+      });
     </script>
   </body>
 </html>
